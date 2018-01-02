@@ -1,0 +1,19 @@
+mutation ($name: String!, $lastName: String!, $mail: String!, $adresses: [AddressInput]) {
+  addCustomer(customer: {
+    name: $name,
+    lastName: $lastName,
+    mail: $mail,
+    addresses: $adresses
+  }) {
+    id,
+    name,
+    lastName,
+    mail,
+    addresses {
+      id,
+      street,
+      city,
+      zipcode
+    }
+  }
+}
