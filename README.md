@@ -8,7 +8,9 @@
 
     # clone and run server tw_graphql
     $ npm i
-    $ npm run query
+    $ npm run query-list
+    # and/or
+    $ npm run query-finder
     # and/or
     $ npm run mutation
 

@@ -4,8 +4,9 @@
   "description": "Tech watch on graphQL consumption with Apollo client",
   "main": "index.js",
   "scripts": {
-    "query": "node ./src/queryExample.js",
-    "mutation": "node ./src/mutationExample.js"
+    "query-list": "node ./src/example/queryListExample.js",
+    "query-finder": "node ./src/example/queryFinderExample.js",
+    "mutation": "node ./src/example/mutationExample.js"
   },
   "author": "",
   "license": "ISC",

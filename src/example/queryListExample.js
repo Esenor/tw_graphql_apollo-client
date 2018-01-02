@@ -1,5 +1,5 @@
-const apolloClient = require('./apolloClient')
-const gqltagParser = require('./gqltagParser')
+const apolloClient = require('../apolloClient')
+const gqltagParser = require('../gqltagParser')
 
 let client = apolloClient.getClient()
 let listCustomersQuery = gqltagParser.getQuery('listCustomers')

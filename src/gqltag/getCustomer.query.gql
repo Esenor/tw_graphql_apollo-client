@@ -1,0 +1,14 @@
+query ($mail: String!) {
+  customer: getCustomer(mail: $mail) {
+    id,
+    name
+    lastName,
+    mail,
+    addresses {
+      id,
+      street,
+      city,
+      zipcode
+    }
+  }
+}
