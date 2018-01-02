@@ -1,4 +1,4 @@
-# TW_Apollo-client #
+# tw_graphql_apollo-client #
 
 > Client for GraphQL API
 
