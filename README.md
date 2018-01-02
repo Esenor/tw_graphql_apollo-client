@@ -4,6 +4,9 @@
 
 ## usage ##
 
+  **This project need this graphQL server: [tw_graphql](https://github.com/Esenor/tw_graphql)**
+
+    # clone and run server tw_graphql
     $ npm i
     $ npm run query
     # and/or
